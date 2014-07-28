@@ -1,0 +1,85 @@
+body {
+	color:white;
+  padding: 50px;
+  font: 16px "Lucida Grande", Helvetica, Arial, sans-serif;
+background-image:url("../images/bg.jpg"); 
+}
+
+a {
+  color: #00B7FF;
+}
+
+#info p {
+  color: #3c763d;
+  background-color: #dff0d8;
+  border-color: #d6e9c6;
+}
+
+#message{
+height: 25px;
+width: 220px;
+}
+
+#messages{
+color: #464343;
+background: -webkit-linear-gradient(white, #D8D8D8); /* For Safari 5.1 to 6.0 */
+background: -o-linear-gradient(white, #D8D8D8); /* For Opera 11.1 to 12.0 */
+background: -moz-linear-gradient(white, #D8D8D8); /* For Firefox 3.6 to 15 */
+background: linear-gradient(white, #D8D8D8); 
+height: 500px;
+width: 700px;
+position:absolute;
+top:15px;
+left: 500px;
+border-style:solid;
+border-width:5px;
+ overflow: auto;
+padding-top:5px;
+padding-bottom:5px;
+padding-right:5px;
+padding-left:5px;
+}
+
+#welcome{
+color: #464343;
+background: -webkit-linear-gradient(white, #D8D8D8); /* For Safari 5.1 to 6.0 */
+background: -o-linear-gradient(white, #D8D8D8); /* For Opera 11.1 to 12.0 */
+background: -moz-linear-gradient(white, #D8D8D8); /* For Firefox 3.6 to 15 */
+background: linear-gradient(white, #D8D8D8); 
+height: 250px;
+width: 500px;
+position:absolute;
+top:250px;
+left: 400px;
+border-style:solid;
+border-width:5px;
+ overflow: auto;
+padding-top:5px;
+padding-bottom:5px;
+padding-right:5px;
+padding-left:5px;
+}
+
+#messages div{
+  border:2px solid;
+   border-bottom-color:#009900; /* Green */
+   border-top-color:#FF0000;    /* Red */
+   border-left-color:#330000;   /* Black */
+   border-right-color:#0000CC;  /* Blue */
+}
+
+#welcome div{
+  border:2px solid;
+   border-bottom-color:#009900; /* Green */
+   border-top-color:#FF0000;    /* Red */
+   border-left-color:#330000;   /* Black */
+   border-right-color:#0000CC;  /* Blue */
+}
+
+#intro{
+position:absolute;
+top:15px;
+left: 400px;
+height: 500px;
+width: 700px;
+}
